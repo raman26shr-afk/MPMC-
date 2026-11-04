@@ -5,7 +5,7 @@
 To write an assembly language program in 8086 to generate Sawtooth and Square waveforms using DAC.
 
 ---
-
+ 
 ## APPARATUS REQUIRED
 
 | S. No | Item              | Specification   | Quantity |
