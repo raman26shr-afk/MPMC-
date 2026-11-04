@@ -109,7 +109,9 @@ HERE:   DJNZ    R1, HERE
 ## Output image from proteus
 <img width="1920" height="1080" alt="Screenshot 2026-11-04 104212" src="https://github.com/user-attachments/assets/8069aafe-bacd-404e-b865-76ec8abad36f" />
 
-## Output image from keil
+## Output image from Keil µVision
+<img width="1920" height="1080" alt="Screenshot 2026-11-04 103501" src="https://github.com/user-attachments/assets/25ca043c-3bae-4680-9053-700ccd875c6a" />
+
 
 
 ## Result
