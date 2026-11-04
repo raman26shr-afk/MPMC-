@@ -49,6 +49,16 @@ transistor turns OFF and the buzzer remains silent.
 5.If P1.4 = 0, make P3.2 = 0 to turn OFF the buzzer.
 6.Repeat continuously.
 
+## Procedure
+
+1. Create a new 8051 project in Keil µVision and select the AT89C51/AT89S52 device.
+2. Create an ASM source file and enter the given assembly program.
+3. Build the project and generate the HEX file.
+4. Open the supplied Proteus circuit and double-click the microcontroller.
+5. Load the generated HEX file into the Program File field.
+6. Set a suitable crystal frequency and run the simulation.
+7. Operate the switch connected to P1.4 and observe the buzzer connected through the BC547 transistor.
+
 ## 8051 Assembly Language Program
 
 **Program objective:** Read the switch connected to P1.4 and control the buzzer connected to P3.2.
@@ -96,15 +106,11 @@ HERE:   DJNZ    R1, HERE
 | RET | Returns from the delay subroutine. |
 | END | Marks the end of the assembly program. |
 
-## Procedure
+## Output image from proteus
+<img width="1920" height="1080" alt="Screenshot 2026-11-04 104212" src="https://github.com/user-attachments/assets/8069aafe-bacd-404e-b865-76ec8abad36f" />
 
-1. Create a new 8051 project in Keil µVision and select the AT89C51/AT89S52 device.
-2. Create an ASM source file and enter the given assembly program.
-3. Build the project and generate the HEX file.
-4. Open the supplied Proteus circuit and double-click the microcontroller.
-5. Load the generated HEX file into the Program File field.
-6. Set a suitable crystal frequency and run the simulation.
-7. Operate the switch connected to P1.4 and observe the buzzer connected through the BC547 transistor.
+## Output image from keil
+
 
 ## Result
 When the push button connected to P1.4 is pressed, the buzzer sounds. When the push button is released, 
