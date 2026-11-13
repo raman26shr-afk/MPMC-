@@ -59,11 +59,12 @@ END
 ---
 ## MANUAL CALCULATIONS
 
-4!=4*3*2*1 
-4! =24
----
+4!=4 * 3 * 2 * 1 
 
-RESULT
+4! =24
+
+
+## RESULT
 
 Thus, the factorial of a number was calculated and executed successfully using 8051 Keil.
 
